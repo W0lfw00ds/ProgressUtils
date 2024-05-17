@@ -26,8 +26,8 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                       in the output with command 'powershell [char]26'. If other solution exists, which doesn't have dependencies to
                       other programs, feel free to update.
 */
-CLASS CommandPrompt
-    IMPLEMENTS ICommandLineInterpreter:
+CLASS ProgressUtils.CommandLineInterpreter.CommandPrompt
+    IMPLEMENTS ProgressUtils.CommandLineInterpreter.ICommandLineInterpreter:
     
     DEF PRIVATE STREAM stCmd.
     
