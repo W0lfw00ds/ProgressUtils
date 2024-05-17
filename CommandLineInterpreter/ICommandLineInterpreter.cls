@@ -11,7 +11,7 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                     - Unix Z Shell (zsh)
                     - Unix TENEX C Shell (tcsh)
 */
-INTERFACE ICommandLineInterpreter:
+INTERFACE ProgressUtils.CommandLineInterpreter.ICommandLineInterpreter:
     
     /*
         Purpose:    Writes new input to the terminal.
