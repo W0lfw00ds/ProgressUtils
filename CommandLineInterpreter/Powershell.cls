@@ -28,8 +28,8 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                     - "$ErrorActionPreference = 'Stop'":         Any occured error stops code execution. Can be changed at runtime.
                     - "$ProgressPreference='SilentlyContinue';": 'Powershell' executes the commands, but doesn't display the progress bar. Can be changed at runtime.
 */
-CLASS Powershell
-    IMPLEMENTS ICommandLineInterpreter:
+CLASS ProgressUtils.CommandLineInterpreter.Powershell
+    IMPLEMENTS ProgressUtils.CommandLineInterpreter.ICommandLineInterpreter:
     
     DEF PRIVATE STREAM stPowershell.
     
