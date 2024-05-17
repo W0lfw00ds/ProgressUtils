@@ -25,8 +25,8 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                 'BourneShell' startup settings:
                     - "PS1=''": Prompt is set to empty so the outputs only contain the actual output. Can be changed at runtime.
 */
-CLASS BourneShell
-    IMPLEMENTS ICommandLineInterpreter:
+CLASS ProgressUtils.CommandLineInterpreter.BourneShell
+    IMPLEMENTS ProgressUtils.CommandLineInterpreter.ICommandLineInterpreter:
     
     DEF PRIVATE STREAM stSH.
     
