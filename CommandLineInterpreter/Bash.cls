@@ -26,7 +26,7 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                     - "PS1=''": Prompt is set to empty so the outputs only contain the actual output. Can be changed at runtime.
 */
 CLASS ProgressUtils.CommandLineInterpreter.Bash
-    IMPLEMENTS ICommandLineInterpreter:
+    IMPLEMENTS ProgressUtils.CommandLineInterpreter.ICommandLineInterpreter:
     
     DEF PRIVATE STREAM stBash.
     
