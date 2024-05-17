@@ -25,7 +25,7 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
                 'Bash' startup settings:
                     - "PS1=''": Prompt is set to empty so the outputs only contain the actual output. Can be changed at runtime.
 */
-CLASS Bash
+CLASS ProgressUtils.CommandLineInterpreter.Bash
     IMPLEMENTS ICommandLineInterpreter:
     
     DEF PRIVATE STREAM stBash.
